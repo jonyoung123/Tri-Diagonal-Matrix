@@ -1,0 +1,68 @@
+:root{
+    --bg-color: rgb(236, 236, 34);
+}
+body{
+    font-family: 'Poppins', sans-serif; padding-top: 0px;
+}
+.header{background-color: azure; position: fixed; margin-top: -8px; width: 100%; display: inline-flex;}
+.header #nav,#img{display: inline-flex; margin-left: 3%; margin-right: 3%; }
+.header #img{align-self: flex-start; height: 50px; width: 60px; }
+#nav{font-size: large; text-align: center; font-weight: 400; display: inline; justify-content: space-between;}
+#b{padding-left: 20px;}
+#c{padding-left: 20px;}
+a{text-decoration: none; color: black;}
+a:visited{color: navy;}
+a:hover{color: black;}
+.main{padding-top: 30px;}
+.main #description{background-image: linear-gradient(rgb(33, 141, 33), rgb(102, 102, 219)); }
+#description #descriptions{font-size: 15px; max-width: 60%; margin-left: 20%; padding-top: 50px; text-align: center;
+margin-bottom: 5%; color: aqua;}
+#input{width: 200px; height: 40px; border-radius: 50px; font-size: larger; font-weight: 800; margin-left: 35%; 
+    background: none; margin-bottom: 5%; color: aqua; border: 2px solid ;}
+#img{margin-left: 8vw;}
+#download{background-color: var(--bg-color); margin-top: -30px;}
+#discover{padding-top: 6%; text-align: center; font-size: 30px; font-weight: 100; font-style: normal;
+    margin-left: 20vw; max-width: 50%;}
+.c{text-align: center; font-size: 15px; line-height: 6px; margin-left: -5%;}
+#playstore{ margin-left: 10vw; padding-bottom: 5%;}
+#features{padding-top: 5%; background-color: azure;}
+#f{text-align: center; margin-left: 0; font-size: x-large;}
+#g{text-align: center; font-size: 13px;}
+#feature{margin-top: 5%; padding-bottom: 5%;}
+#i{padding-left: 47%;}
+.j{font-size: x-large; text-align: center; }
+.k{font-size: 15px; text-align: center; max-width: 40%; margin-left: 30%;}
+.x{margin-top: 5%;}
+.start{background-image: linear-gradient(rgb(224, 104, 228), rgb(159, 159, 248));}
+#image{margin-top: -5%; width: 100%; height: 300px;}
+#start{padding-top: 5%; padding-bottom: 5%; font-size: 17px;}
+.y{font-size: 20px; text-align: center; margin-left: -50px;}
+#z{border-radius: 50px; margin-left: 35%; height: 40px; border: 2px solid ; margin-top: 3%; margin-bottom: 3%;}
+#contact{background-color: var(--bg-color); margin-top: -6%; padding-top: 3%; padding-bottom: 5%;}
+#q{font-size: xx-large; align-items: center; padding-left: 30%;}
+#icons{display: inline; justify-content: space-between; padding-left: 30%; padding-top: 2px;}
+#footer{background-color: black; color: azure; padding-top: 3%; padding-bottom: 3%; margin-top: -3%;}
+
+@media screen and (min-width: 800px){#img{margin-left: 20%;}
+    #playstore{ margin-left: 24vw; padding-bottom: 5%;}
+    #z{border-radius: 50px; margin-left: 40%; margin-top: 3%; margin-bottom: 3%;}
+    #q{font-size: xx-large; align-items: center; padding-left: 35%;}
+    #icons{display: inline; justify-content: space-between; padding-left: 35%; padding-top: 2px;}
+    #i{padding-left: 45%;}
+    .j{font-size: x-large; text-align: center; }
+    .k{font-size: 15px; text-align: center; max-width: 40%; margin-left: 28%;}
+    .x{margin-top: 5%;}
+}
+@media screen and (min-width: 1200px){#img{margin-left: 25%;} 
+    #playstore{ margin-left: 30vw; padding-bottom: 5%;}
+    #f{text-align: center; margin-left: -5%; font-size: xx-large; line-height: 10px;}
+    #g{text-align: center; margin-left: -5%; font-size: 15px;}
+    .y{font-size: 20px; text-align: center; margin-left: -100px;}
+    #q{font-size: xx-large; align-items: center; padding-left: 40%;}
+    #z{border-radius: 50px; margin-left: 45%; margin-top: 3%; margin-bottom: 3%;}
+    #icons{display: inline; justify-content: space-between; padding-left: 40%; padding-top: 2px;}
+    #i{padding-left: 45%;}
+    .j{font-size: x-large; text-align: center; }
+    .k{font-size: 15px; text-align: center; max-width: 40%; margin-left: 28%;}
+    .x{margin-top: 5%;}
+}
